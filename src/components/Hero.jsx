@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { FaCopy, FaCheck } from 'react-icons/fa';
-import heroImage from '../assets/hero-swan.png';
+import heroImage from '../assets/hero-swan.jpg';
 import './Hero.css';
 
 const Hero = () => {
