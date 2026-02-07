@@ -28,9 +28,14 @@ const Hero = () => {
                     {copied ? <FaCheck className="copy-icon" /> : <FaCopy className="copy-icon" />}
                 </div>
 
-                <a href="https://pump.fun/5iC72jzRib1MpFRTrQSf8hibNEnMs9bGAeWVU87Npump" target="_blank" rel="noopener noreferrer" className="cta-button">
-                    Acquire
-                </a>
+                <div className="cta-group">
+                    <a href="https://pump.fun/5iC72jzRib1MpFRTrQSf8hibNEnMs9bGAeWVU87Npump" target="_blank" rel="noopener noreferrer" className="cta-button cta-pump">
+                        Acquire
+                    </a>
+                    <a href="https://axiom.trade/t/5iC72jzRib1MpFRTrQSf8hibNEnMs9bGAeWVU87Npump/@noose?chain=sol" target="_blank" rel="noopener noreferrer" className="cta-button cta-axiom">
+                        Buy on Axiom
+                    </a>
+                </div>
             </div>
         </div>
     );

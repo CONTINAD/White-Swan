@@ -1,12 +1,16 @@
 :root {
-  --color-bg: #0a0a0b; /* Deep black/blue */
+  --color-bg: #050507;
+  /* Darker, richer black */
   --color-text: #e0e0e0;
-  --color-accent: #c0c0c0; /* Silver */
-  --color-primary: #ffffff; /* White Swan */
-  --color-secondary: #2c3e50; /* Slate blue */
+  --color-accent: #c0c0c0;
+  /* Silver */
+  --color-primary: #ffffff;
+  /* White Swan */
+  --color-secondary: #2c3e50;
+  /* Slate blue */
   --font-heading: 'Cinzel', serif;
   --font-body: 'Lato', sans-serif;
-  
+
   --spacing-sm: 8px;
   --spacing-md: 16px;
   --spacing-lg: 32px;
@@ -22,6 +26,7 @@
 
 body {
   background-color: var(--color-bg);
+  background-image: radial-gradient(circle at 50% 0%, #1a1a2e 0%, var(--color-bg) 60%);
   color: var(--color-text);
   font-family: var(--font-body);
   line-height: 1.6;
@@ -29,7 +34,12 @@ body {
   -webkit-font-smoothing: antialiased;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-family: var(--font-heading);
   color: var(--color-primary);
   text-transform: uppercase;
